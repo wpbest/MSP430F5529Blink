@@ -1,52 +1,28 @@
-# Prerequisites
-*.d
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Visual Studio User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Visual Studio Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Ww]in32/
+[Ii]ntermediate/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Visual Studio 2015/2017 cache/options directory
+.vs/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# IAR Compiler
+*.dep
+[Ss]ettings/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# System Files
+.DS_Store
+Thumbs.db
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# log file
+router.log
